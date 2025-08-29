@@ -62,3 +62,35 @@
         color: #0000ff;
     }
 }
+
+.gallery1{
+  display: flex;
+  height: 80vh;
+  overflow: visible; /* ensure parent doesn't clip */
+  margin-bottom: 15vh;
+
+  & > .white {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40vw;
+    overflow: visible; /* allow the img to spill out */
+  }
+
+  & > .white > img {
+    position: relative;   /* needed for z-index */
+    z-index: 2;           /* sit on top of .yellow */
+    margin-right: -6vw;   /* negative to overlap into the right div */
+    max-width: none;      /* allow it to exceed parent width if needed */
+  }
+
+  & > .yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbffa7;
+    width: 60vw;
+    position: relative;
+    z-index: 1; /* lower than the left image so image sits on top */
+  }
+}
