@@ -125,3 +125,39 @@
         font-weight: bolder;
     }
 }
+
+.gallery2{
+    display: flex;
+    height: 95vh;
+    overflow: visible; /* ensure parent doesn't clip */
+    margin-bottom: 15vh;
+    margin: auto;
+    width: 85vw;
+
+    &>.green_side{
+        position: relative;
+        z-index: 1;
+        background-color: #b6ffc0;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &>.green_side_images>img{
+            display: block;
+        }
+        &>.green_side_images>img#teach{
+            margin-bottom: 6vh;
+        }
+    }
+
+    &>.white_side{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &>img{
+            position: relative;
+            z-index: 2;
+            margin-left: -6vw;
+        }
+    }
+}
