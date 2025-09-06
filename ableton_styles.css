@@ -68,7 +68,8 @@
   height: 80vh;
   overflow: visible; /* ensure parent doesn't clip */
   margin-bottom: 15vh;
-
+  margin: auto;
+  width: 85vw;
   & > .white {
     display: flex;
     justify-content: flex-end;
@@ -112,4 +113,15 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15vh;
+}
+
+.people_350{
+    margin: auto;
+    width: 40vw;
+    font-size: large;
+    margin-bottom: 15vh;
+    &>.people_350_bold{
+        font-size: larger;
+        font-weight: bolder;
+    }
 }
