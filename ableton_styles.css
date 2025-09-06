@@ -41,7 +41,7 @@
     background-position: top center;
     background-size: contain;
     margin: auto;
-    width: 85vw;
+    width: 85vw; 
     &>h1{
         color: #ff764d;
         font-size: 10vw;
@@ -93,4 +93,23 @@
     position: relative;
     z-index: 1; /* lower than the left image so image sits on top */
   }
+}
+
+.Making_Music{
+    width: 40vw;
+    margin: auto;
+    font-size: large;
+    margin-top: 15vh;
+    &>.Making_Music_Bold{
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
+
+.video1{
+    margin: auto;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
 }
