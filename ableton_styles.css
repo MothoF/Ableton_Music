@@ -109,7 +109,7 @@
 
 .video1{
     margin: auto;
-    width: 40vh;
+    width: 40vw;
     display: flex;
     justify-content: center;
     margin-bottom: 15vh;
@@ -171,5 +171,18 @@
     &>.we_believe_bold{
         font-size: larger;
         font-weight: bolder;
+    }
+}
+
+.production{
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+    &>video{
+        width: 85vw;
+        height: 80vh;
+        object-fit: fill;
     }
 }
