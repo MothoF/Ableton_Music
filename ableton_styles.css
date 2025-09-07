@@ -192,3 +192,14 @@
         object-fit: fill;
     }
 }
+
+.passionate{
+    margin: auto;
+    width: 40vw;
+    font-size: large;
+    margin-bottom: 15vh;
+    &>.passionate_bold{
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
