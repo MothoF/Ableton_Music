@@ -259,3 +259,26 @@
         font-weight: bolder;
     }
 }
+
+.jobs{
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #b1c5ff;
+    margin-bottom: 15vh;
+
+    &>.paragraph{
+        margin: auto;
+        display: flex;
+        width: calc((1/2)*85vw);
+        justify-content: center;
+        align-items: center;
+    }
+
+    &>img{
+        width: calc((1/2)*85vw);
+    }
+
+}
