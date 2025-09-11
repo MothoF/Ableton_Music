@@ -282,3 +282,9 @@
     }
 
 }
+
+h1{
+    margin-bottom: 5vw;
+    margin-left: calc((1/2)*15vw);
+    font-size: 400%;
+}
