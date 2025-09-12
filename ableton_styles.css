@@ -284,7 +284,7 @@
 }
 
 h1{
-    margin-bottom: 5vw;
+    margin-bottom: 5vh;
     margin-left: calc((1/2)*15vw);
     font-size: 400%;
 }
@@ -294,5 +294,26 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
         grid-template-rows: 1fr 1fr;
+        margin: auto;
+        width: 85vw;
+
+        &>.top_row, &>.bottom_row{
+            grid-column: 1/4;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &>.top_row{
+            grid-row: 1/2;
+            margin-bottom: 5vh;
+
+            &>.row1_column1>h2{
+                visibility: hidden;
+            }
+        }
+
+        &>.bottom_row{
+            grid-row: 2/3;
+        }
     }
 }
