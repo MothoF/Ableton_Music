@@ -288,3 +288,11 @@ h1{
     margin-left: calc((1/2)*15vw);
     font-size: 400%;
 }
+
+footer{
+    &>.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
