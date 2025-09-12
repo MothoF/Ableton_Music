@@ -285,7 +285,7 @@
 
 h1{
     margin-bottom: 5vh;
-    margin-left: calc((1/2)*15vw);
+    margin-left: 7vw;
     font-size: 400%;
 }
 
@@ -310,10 +310,26 @@ footer{
             &>.row1_column1>h2{
                 visibility: hidden;
             }
+
+            &>div{
+                width: calc((1/3)*85vw);
+
+                &>a{
+                    text-decoration: none;
+                }
+            }
         }
 
         &>.bottom_row{
             grid-row: 2/3;
+
+            &>div{
+                width: calc((1/3)*85vw);
+
+                &>a{
+                    text-decoration: none;
+                }
+            }
         }
     }
 }
