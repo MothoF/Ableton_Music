@@ -367,3 +367,29 @@ footer{
     }
 }
 
+.secondary_menu{
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+
+    &>div>a{
+        color: black;
+        text-decoration: none;
+        padding-right: 1vw;
+    }
+
+    &>div.right_side{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>img{
+            height: 5vh;
+            width: 5vw;
+        }
+    }
+}
+
