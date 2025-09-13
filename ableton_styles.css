@@ -351,6 +351,10 @@ footer{
                     color: #000000;
                 }
 
+                &>select{
+                    background-color: whitesmoke;
+                }
+
                 &>select#lang{
                     width: calc((1/3)*((2/3)*calc((1/3)*85vw)));
                 }
